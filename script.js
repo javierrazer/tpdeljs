@@ -22,3 +22,9 @@ console.log(
     multiplica(5, 6),
     multiplica(2, -6)
 );
+
+var a = 13;
+var b = 5;
+var quo = ~~(a / b);
+var rem = a % b;
+console.log('Quotient = ', quo, 'Remainder = ', rem);
