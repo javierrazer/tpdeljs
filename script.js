@@ -1,10 +1,8 @@
-var n1, n2, vsuma;
+var num_1 = 2,
+    num_2 = 3;
+console.log(num_1 + num_2);
 
-n1 = parseInt(prompt('Ingresar numero 1'));
-n2 = parseInt(prompt('Ingresar numero 2'));
 
-vsuma = n1 + n2;
-document.write('La suma es ' + vsuma);
 
 let x = 10;
 let y = 20;
@@ -12,3 +10,15 @@ let y = 20;
 let z = y - x;
 
 console.log(z);
+
+function multiplica(c, d) {
+    return c > 0 ? multiplica(c - 1, d) + d : 0;
+}
+
+console.log(
+    multiplica(2, 3),
+    multiplica(3, 4),
+    multiplica(4, 5),
+    multiplica(5, 6),
+    multiplica(2, -6)
+);
