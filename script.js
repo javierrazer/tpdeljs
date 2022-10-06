@@ -28,3 +28,6 @@ var b = 5;
 var quo = ~~(a / b);
 var rem = a % b;
 console.log('Quotient = ', quo, 'Remainder = ', rem);
+
+var array = [{ nombre: "javier", edad: 19 }, { nombre: "alexis", edad: 18 }];
+console.log(array);
